@@ -2,7 +2,9 @@
 const nextConfig = {
     images: {
         remotePatterns: [
-            { hostname: "images.pexels.com" }
+            { hostname: "images.pexels.com" },
+            { hostname: "encrypted-tbn0.gstatic.com" },
+            { hostname: "avatars.githubusercontent.com" }
         ]
     }
 };
